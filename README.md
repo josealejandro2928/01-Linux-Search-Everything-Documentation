@@ -8,13 +8,15 @@ A faster and more flexible file browser for <strong>Linux</strong>, offering ric
 
 
 ## Stack selected and architecture
-It was made using the electron framework. The UI was created with Reactjs version 18, using the new concurrency capabilities in this new release. Redux library was used as the global state feature.
+It was made using the [Electron framework](https://www.electronjs.org/). The UI was created with [Reactjs](https://reactjs.org/) version 18, using the new concurrency capabilities in this new release. [Redux](https://redux.js.org/) library was used as the global state feature.
 
-For the features related to file search and shell command execution, Nodejs was used.The project is in the process of getting started, my goal is to achieve the capabilities of the windows "everything" software. 
-In this version we are not using indexing. But we are exploiting the multitasking capabilities offered by Nodejs to try to perform a search in the file tree as fast as possible. I use child_process, spawn, fork, and worker_threads.
+For the features related to file search and shell command execution, [Nodejs](https://nodejs.org/) was used.The project is in the process of getting started, my goal is to achieve the capabilities of the windows "everything" software. 
+In this version we are not using indexing. But we are exploiting the multitasking capabilities offered by Nodejs to try to perform a search in the file tree as fast as possible. I use [child_process](https://nodejs.org/docs/latest-v17.x/api/child_process.html), [spawn](https://nodejs.org/docs/latest-v17.x/api/child_process.html#child_processspawncommand-args-options), [fork](https://nodejs.org/docs/latest-v17.x/api/child_process.html#child_processforkmodulepath-args-options), and [worker_threads](https://nodejs.org/docs/latest-v17.x/api/worker_threads.html).
 
+### Software Architecture
+![basic-arch](https://user-images.githubusercontent.com/37028825/166067519-6174d01b-6d02-4d9d-a1c1-51d8fb414e00.png)
 
-
+### Search Algorithms
 ![g124567](https://user-images.githubusercontent.com/37028825/166061379-3096c3b1-c01e-4392-b04e-a8da534eeaa3.png)
 
 
