@@ -14,10 +14,25 @@ For the features related to file search and shell command execution, [Nodejs](ht
 In this version we are not using indexing. But we are exploiting the multitasking capabilities offered by Nodejs to try to perform a search in the file tree as fast as possible. I use [child_process](https://nodejs.org/docs/latest-v17.x/api/child_process.html), [spawn](https://nodejs.org/docs/latest-v17.x/api/child_process.html#child_processspawncommand-args-options), [fork](https://nodejs.org/docs/latest-v17.x/api/child_process.html#child_processforkmodulepath-args-options), and [worker_threads](https://nodejs.org/docs/latest-v17.x/api/worker_threads.html).
 
 ### Software Architecture
+Electron is a framework for building desktop applications using JavaScript, HTML, and CSS. By embedding Chromium and Node.js into its binary, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux — no native development experience required.
+It has two main processes, IcpMain and IcpRender. IcpMain is a node base environment where all Nodejs functionalities such as path, fs, EventEmitter, child_process, worker_threads, etc. can be accessed.
+IcpRender is in charge of the render ui.
+
 ![basic-arch](https://user-images.githubusercontent.com/37028825/166067519-6174d01b-6d02-4d9d-a1c1-51d8fb414e00.png)
 
+I've implemented a multi threading BFS for search in the File System Tree.
 ### Search Algorithms
 ![g124567](https://user-images.githubusercontent.com/37028825/166061379-3096c3b1-c01e-4392-b04e-a8da534eeaa3.png)
+
+## Application Gallery
+### Basic Search UI
+![1-home-view](https://user-images.githubusercontent.com/37028825/166068695-f432b357-ecca-4109-ab01-73c2d6b7694e.png)
+
+### Directories Edition 
+![2-selection-directories_1](https://user-images.githubusercontent.com/37028825/166068798-168b799e-d04b-412e-b873-88aa6475ba3b.png)
+
+### Directories Selection 
+![2-selection-directories_2](https://user-images.githubusercontent.com/37028825/166068914-d7f4e180-fead-476a-b09f-fae90f65068c.png)
 
 
 
