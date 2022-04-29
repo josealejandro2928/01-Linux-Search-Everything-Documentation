@@ -34,10 +34,17 @@ I've implemented a multi threading BFS for search in the File System Tree.
 ### Directories Selection 
 ![2-selection-directories_2](https://user-images.githubusercontent.com/37028825/166068914-d7f4e180-fead-476a-b09f-fae90f65068c.png)
 
+### Search Filtering Capabilities 
+![3-settings-to-improve-the-search](https://user-images.githubusercontent.com/37028825/166069077-12a5f560-3614-4501-a8cf-350a31549a6e.png)
+
+### Result of getting all the videos for the dir: "/mnt/DATA" 
+![4-result-image-video-files](https://user-images.githubusercontent.com/37028825/166069179-63bd13f3-6998-4915-aa35-d64cc0125d5a.png)
+
+### Search based on regular expression
+![6-result-matching](https://user-images.githubusercontent.com/37028825/166069379-0f321e48-6916-4a46-b098-65a39937507b.png)
 
 
-### Installers links on Drive
-
+## Installers
 <https://drive.google.com/drive/folders/1BBPZhR-4YVGxHIWIV_JBFh-GS5-TREDv?usp=sharing>
 
 ### get the .deb package
