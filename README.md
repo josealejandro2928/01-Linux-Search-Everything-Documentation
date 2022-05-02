@@ -60,15 +60,15 @@ I've implemented a multi threading BFS for search in the File System Tree.
 
 ### get the .deb package
 
-<https://drive.google.com/uc?id=1Cc0GkkmN90em-FVCqWGWuJjOnih1JeeY&export=download>
+<https://drive.google.com/uc?id=1fHTbuU4ADu8ABc0QQGqzLms2h31dyXeU&export=download>
 
 ### get the .rpm package
 
-<https://drive.google.com/uc?id=1ZqsD89e1gh-VamQqFEfkqlRj_8xYwM0I&export=download>
+<https://drive.google.com/uc?id=15q_scY6eqB46XzNesJKxUopLk0ibmXAv/view&export=download>
 
 ### get the .zip package
 
-<https://drive.google.com/uc?id=1UlRHTkF48yNpftZ2UDtuLdG28QlCh4ob&export=download>
+<https://drive.google.com/uc?id=1ssHkG142tZVPKv8cUMFAbmILDup-Waoy&export=download>
 
 ## Youtube Video
 [![main video](https://user-images.githubusercontent.com/37028825/166125854-573fdbff-f9cc-4e2c-ac1f-dd7f22100f7a.png)](https://youtu.be/6iVXQYM4GPg)
