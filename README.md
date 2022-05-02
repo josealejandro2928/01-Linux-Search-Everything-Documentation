@@ -64,7 +64,7 @@ I've implemented a multi threading BFS for search in the File System Tree.
 
 ### get the .rpm package
 
-<https://drive.google.com/uc?id=15q_scY6eqB46XzNesJKxUopLk0ibmXAv/view&export=download>
+<https://drive.google.com/uc?id=15q_scY6eqB46XzNesJKxUopLk0ibmXAv&export=download>
 
 ### get the .zip package
 
