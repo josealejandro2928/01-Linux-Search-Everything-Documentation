@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/37028825/166054685-9f56c077-52c2-4af1-ba6b-a2e87cde847b.png" height="140"/>
 
-A faster and more flexible file browser for <strong>Linux</strong>, offering rich capabilities such as case sensitivity, <strong>regular expression</strong> based search, search by selecting multiple file types, selection of <strong>BFS algorithms</strong> based on multi threads, control of how deep the algorithms go, choice of custom files to not be taking into account in the search process to improve the search speed and more features.
+It is a  faster and more flexible file browser for Linux. It offers rich capabilities such as case sensitivity, regular expression-based search, search by selecting multiple file types, control of the algorithm's depth, and more. Also, it allows the choice of custom files not to be taken into account in the search process to improve the search speed.
 <br/>
 <br/>
 ![1-home-view](https://user-images.githubusercontent.com/37028825/166050292-9f306649-1593-48b2-96f4-4a1933ccc9b3.png)
